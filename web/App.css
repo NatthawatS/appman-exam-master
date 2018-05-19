@@ -1,48 +1,20 @@
 body {
-  background:#ebeaf4
+  background:#ebeaf4;
+}
+
+.header{
+  text-align: center;
 }
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 3s linear;
   width: 180px;
+ 
 }
 
-.App-header {
-  /* background-color: white; */
-  background: whitesmoke;
-  padding:50px;
-  margin: 20px
-}
-
-.App-view{
-  background-color:whitesmoke;
-}
-
-.Input{
-  font-size: large;
-  border-radius: 10px;
-  border-color: whitesmoke;
-  margin: 10px;
-  padding: 2px;
-  width: 200;
+.App-header{
+  width: 400px;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
 }
 
-.SINGIN{
-  background-color:#15b3fe;
-  width: 100px;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 10px;
-}
-
-.Name{
-  color:#15b3fe;
-  font-size: 10px;
-}
-
-.a{justify-Content:space-between}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}

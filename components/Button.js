@@ -1,10 +1,14 @@
 import React from 'react';
-class Button extends React.Component {
-    render() {
-        return (
-          <div  ><button className="SINGIN"> SING IN</button></div>
-        );
-    }
+import './../components/Button.css';
+class Fromemail extends React.Component {
+  render() {
+    return (
+
+      <div className="header" >
+        <button className="button" >SIGN IN</button>
+      </div>
+    );
+  }
 }
 
-export default Button;
+export default Fromemail;

@@ -10,10 +10,12 @@
     },
     "dependencies": {
         "body-parser": "1.17.2",
+        "bootstrap": "^4.1.1",
         "cors": "2.8.4",
         "express": "4.15.3",
         "lodash": "4.17.4",
         "react": "15.6.1",
+        "react-bootstrap": "^0.32.1",
         "react-dom": "15.6.1"
     },
     "devDependencies": {
